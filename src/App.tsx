@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BarChart3, Brain, Database, TrendingUp, Github, Linkedin, Mail, ChevronRight, ExternalLink, X, Code2, FileText } from 'lucide-react';
 
 const Portfolio = () => {
@@ -171,20 +171,34 @@ const Portfolio = () => {
                   <div className="text-lg text-slate-400">Connect with me</div>
                 </div>
               </a>
-              <a 
-                href="mailto:pandeyrachana08@gmail.com"
-                className="flex items-center gap-3 px-5 py-3 bg-slate-900/70 rounded-2xl hover:bg-slate-800 transition-all border border-slate-700 group"
-              >
-                <div className="w-11 h-11 rounded-xl bg-slate-800 flex items-center justify-center border border-slate-700 group-hover:border-cyan-400 transition-colors">
-                  <Mail className="w-5 h-5 text-cyan-400" />
-                </div>
-                <div className="text-left">
-                  <div className="text-slate-200 font-medium text-xl">Email</div>
-                  <div className="text-lg text-slate-400">pandeyrachana08@gmail.com</div>
-                </div>
-              </a>
-            </div>
+            <a 
+              href="mailto:pandeyrachana08@gmail.com"
+              className="flex items-center gap-3 px-5 py-3 bg-slate-900/70 rounded-2xl hover:bg-slate-800 transition-all border border-slate-700 group"
+            >
+              <div className="w-11 h-11 rounded-xl bg-slate-800 flex items-center justify-center border border-slate-700 group-hover:border-cyan-400 transition-colors">
+                <Mail className="w-5 h-5 text-cyan-400" />
+              </div>
+              <div className="text-left">
+                <div className="text-slate-200 font-medium text-xl">Email</div>
+                <div className="text-lg text-slate-400">pandeyrachana08@gmail.com</div>
+              </div>
+            </a>
+            <a 
+              href="https://rachanapandey.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 px-5 py-3 bg-slate-900/70 rounded-2xl hover:bg-slate-800 transition-all border border-slate-700 group"
+            >
+              <div className="w-11 h-11 rounded-xl bg-slate-800 flex items-center justify-center border border-slate-700 group-hover:border-cyan-400 transition-colors">
+                <ExternalLink className="w-5 h-5 text-cyan-400" />
+              </div>
+              <div className="text-left">
+                <div className="text-slate-200 font-medium text-xl">Portfolio</div>
+                <div className="text-lg text-slate-400">rachanapandey.com</div>
+              </div>
+            </a>
           </div>
+        </div>
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-purple-500/10 to-pink-500/10 rounded-3xl blur-2xl"></div>
             <div className="relative bg-slate-900/60 border border-slate-700 rounded-3xl p-10 backdrop-blur-md">
